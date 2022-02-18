@@ -1,0 +1,25 @@
+﻿<Window x:Class="lab_1.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab_1"
+        mc:Ignorable="d"
+        Title="About" Height="450" Width="800" WindowStyle="None">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button Content="To Home" HorizontalAlignment="Center" VerticalAlignment="Center" Width="94" Height="46" Grid.Column="3" Grid.Row="2" Click="ToHome"/>
+        <Label Content="Powerd by Korniichuk Mykola KP-11" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="46" Height="182" Width="800" Grid.ColumnSpan="4" Grid.Row="1" FontWeight="Bold"/>
+    </Grid>
+</Window>
