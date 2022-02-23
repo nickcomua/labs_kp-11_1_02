@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nick\\source\\repos\\prac 1-2\\prac 1-2\\prac 1-2.csproj",
+      "projectUniqueName": "C:\\Users\\Nick\\Documents\\GitHub\\prac 1-2\\prac 1-2\\prac 1-2.csproj",
       "projectName": "prac 1-2",
-      "projectPath": "C:\\Users\\Nick\\source\\repos\\prac 1-2\\prac 1-2\\prac 1-2.csproj",
+      "projectPath": "C:\\Users\\Nick\\Documents\\GitHub\\prac 1-2\\prac 1-2\\prac 1-2.csproj",
       "packagesPath": "C:\\Users\\Nick\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nick\\source\\repos\\prac 1-2\\prac 1-2\\obj\\",
+      "outputPath": "C:\\Users\\Nick\\Documents\\GitHub\\prac 1-2\\prac 1-2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nick\\AppData\\Roaming\\NuGet\\NuGet.Config",

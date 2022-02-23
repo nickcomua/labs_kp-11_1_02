@@ -24,7 +24,7 @@ namespace prac_1_2
         static double stuard = 2.306;
         static double fisher = 3.44;
         static long seconds;
-        static int i, j, n;
+        static int i, j, n, p1 = 0, p2 = 0;
         static int times = 3;
 
         static string str = "длагнитор";
@@ -66,9 +66,11 @@ namespace prac_1_2
                     result = MessageBox.Show("ви пройшли аутиніфікацію?", "2", MessageBoxButton.YesNo);
                     var flag2 = (result == MessageBoxResult.Yes);
                     if (!flag1 && flag2)
-                        P2Field.Content = (int)P2Field.Content + 1;
-                    if(flag1 && !flag2)
-                        P1Field.Content = (int)P2Field.Content + 1;
+                        p1++;
+                    P2Field.Content = (double)p1/j;
+                    if (flag1 && !flag2)
+                        p2++;
+                    P1Field.Content = (double)p2 /j;
                     list = new List<long>();
                     if (j == times)
                     {
@@ -108,7 +110,7 @@ namespace prac_1_2
                 var S2 = y2.Select((x, i) => Math.Sqrt(x.Select(t => (t - M2[i]) * (t - M2[i])).Sum() / 6.0)).ToList();
                 var S = S1.Select((x, i) => Math.Sqrt((x * x + S2[i] * S2[i]) * 7.0 / 17.0)).ToList();
 
-                if (M1.Select((x, i) => ((double)Math.Abs(x - M2[i])) / S[i] * 2.0).All(x => x > stuard))
+                if (M1.Select((x, i) => ((double)Math.Abs(x - M2[i])) / S[i] * 2.0).All(x => x < stuard))
                 {
                     counter++;
                 }
@@ -123,7 +125,7 @@ namespace prac_1_2
             //MessageBox.Show(String.Join(" ", list1.Select((x, i) => (double)Math.Max(x * x, list2[i] * list2[i]) / Math.Min(x * x, list2[i] * list2[i])).ToArray()));
             return (float)check_list.Select(list2 =>
                 list1.Select((x, i) => (double)Math.Max(x*x, list2[i] * list2[i]) / Math.Min(x*x, list2[i] * list2[i]))
-                    ).Count(x => x.Average() > fisher)
+                    ).Count(x => x.All(x => x < fisher))
                         / n;
         }
 

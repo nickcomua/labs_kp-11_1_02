@@ -20,7 +20,7 @@ namespace prac_1_2
     /// </summary>
     public partial class StudyMode : Window
     {
-        static double stuard = 1.86;
+        static double stuard = 2.7;
         static long seconds;
         static int i, j;
         static int times = 3;
@@ -86,7 +86,8 @@ namespace prac_1_2
             var M = y.Select(x => x.Sum()/7.0).ToList();
             var S = y.Select((x, i) =>Math.Sqrt(x.Select(t => (t - M[i])*(t - M[i])).Sum()/6.0)).ToList();
             var t = list1.Select((x,i) => Math.Abs((x- M[i])/(S[i]/Math.Sqrt(7.0)))).ToList();
-            return t.Average() > stuard;
+            MessageBox.Show(String.Join(" ", t));
+            return t.Average() < stuard;
         }
 
         private void CountProtection_SelectionChanged(object sender, SelectionChangedEventArgs e)
