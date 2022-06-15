@@ -1,0 +1,22 @@
+C:\Users\Nick\source\repos\datata generato\datata generato\obj\Debug\net6.0\datata generato.csproj.AssemblyReference.cache
+C:\Users\Nick\source\repos\datata generato\datata generato\obj\Debug\net6.0\datata generato.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick\source\repos\datata generato\datata generato\obj\Debug\net6.0\datata generato.AssemblyInfoInputs.cache
+C:\Users\Nick\source\repos\datata generato\datata generato\obj\Debug\net6.0\datata generato.AssemblyInfo.cs
+C:\Users\Nick\source\repos\datata generato\datata generato\obj\Debug\net6.0\datata generato.csproj.CoreCompileInputs.cache
+C:\Users\Nick\source\repos\datata generato\datata generato\bin\Debug\net6.0\datata generato.exe
+C:\Users\Nick\source\repos\datata generato\datata generato\bin\Debug\net6.0\datata generato.deps.json
+C:\Users\Nick\source\repos\datata generato\datata generato\bin\Debug\net6.0\datata generato.runtimeconfig.json
+C:\Users\Nick\source\repos\datata generato\datata generato\bin\Debug\net6.0\datata generato.dll
+C:\Users\Nick\source\repos\datata generato\datata generato\bin\Debug\net6.0\datata generato.pdb
+C:\Users\Nick\source\repos\datata generato\datata generato\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Nick\source\repos\datata generato\datata generato\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Nick\source\repos\datata generato\datata generato\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Nick\source\repos\datata generato\datata generato\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Nick\source\repos\datata generato\datata generato\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nick\source\repos\datata generato\datata generato\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nick\source\repos\datata generato\datata generato\obj\Debug\net6.0\datata generato.csproj.CopyComplete
+C:\Users\Nick\source\repos\datata generato\datata generato\obj\Debug\net6.0\datata generato.dll
+C:\Users\Nick\source\repos\datata generato\datata generato\obj\Debug\net6.0\refint\datata generato.dll
+C:\Users\Nick\source\repos\datata generato\datata generato\obj\Debug\net6.0\datata generato.pdb
+C:\Users\Nick\source\repos\datata generato\datata generato\obj\Debug\net6.0\datata generato.genruntimeconfig.cache
+C:\Users\Nick\source\repos\datata generato\datata generato\obj\Debug\net6.0\ref\datata generato.dll

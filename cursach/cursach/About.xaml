@@ -1,0 +1,22 @@
+﻿<Window x:Class="cursach.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cursach"
+        mc:Ignorable="d"
+        Title="About" Height="200" Width="655">
+    <Grid>
+        <Label Content="Розробник програмного засобу розмежування повноважень користувачів" HorizontalAlignment="Center" VerticalAlignment="Top" Height="27" Width="564" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" VerticalContentAlignment="Center" 
+Margin="38,10,33.2,0" FontStyle="Italic"/>
+        <Label Content="Факультет прикладної математики&#xD;&#xA;Студент гр. КП-11&#xD;&#xA;спеціальність 121 – Інженерія ПЗ. &#xD;&#xA;Корнійчук Микола Платонович" 
+HorizontalAlignment="Left" 
+VerticalAlignment="Top" Height="75" Width="274" FontFamily="Times  New Roman" FontSize="14" VerticalContentAlignment="Center" 
+Margin="12,49,0,0"/>
+        <Label Content="Версія програмного продукту v.1.0.0" 
+HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="247" FontFamily="Times New Roman" FontSize="14" 
+VerticalContentAlignment="Center" Margin="11,126,0,0"/>
+        <Label Content="Контактні дані&#xA;Телеграм: @nickcomua" HorizontalAlignment="Left" VerticalAlignment="Top" Height="127" Width="323" FontFamily="Times New Roman" FontSize="14" VerticalContentAlignment="Center" 
+Margin="300,44,0,0"/>
+    </Grid>
+</Window>

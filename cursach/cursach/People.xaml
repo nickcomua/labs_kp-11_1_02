@@ -1,0 +1,23 @@
+﻿<Window x:Class="cursach.People"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cursach"
+        mc:Ignorable="d"
+        Title="People" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="PeopleGrid" MouseDoubleClick="PeopleGrid_MouseDoubleClick" Margin="10"/>
+        <Button Grid.Column="1" Content="Перейти" HorizontalAlignment="Left" Margin="36,139,0,0" VerticalAlignment="Top" Height="59" Width="109" FontSize="24" Click="Button_Click_1"/>
+        <Button Grid.Column="1" Content="Назад" HorizontalAlignment="Left" Margin="240,344,0,0" VerticalAlignment="Top" Height="59" Width="109" FontSize="24" Click="Button_Click_3" />
+        <Rectangle Margin="390,128,0,0" Stroke="Black" VerticalAlignment="Top" Fill="Black" Width="Auto" Grid.ColumnSpan="2" />
+        <Rectangle Margin="390,208,0,0" Stroke="Black" VerticalAlignment="Top" Fill="Black" Width="Auto" Grid.ColumnSpan="2" />
+        <Button Grid.Column="1" Content="Додати" HorizontalAlignment="Left" Margin="36,218,0,0" VerticalAlignment="Top" Height="59" Width="109" FontSize="24" Click="Button_Click_2" />
+        <Button x:Name="update" Grid.Column="1" Content="Оновити" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="59" Width="108" FontSize="24" Click="update_Click"/>
+        <Button Grid.Column="1" Content="Видалити" HorizontalAlignment="Left" Margin="240,139,0,0" VerticalAlignment="Top" Height="59" Width="109" FontSize="24" Click="Button_Click" />
+    </Grid>
+</Window>
